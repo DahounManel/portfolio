@@ -1,0 +1,19 @@
+[
+  {
+    "id": "esi-sba",
+    "slug": "esi-sba",
+    "type": "education",
+    "title": "École Supérieure en Informatique — Sidi Bel Abbès",
+    "subtitle": "Intelligent Computer Systems",
+    "period": "Academic dates to confirm",
+    "summary": "Engineering studies at ESI-SBA, with a specialization in Intelligent Computer Systems.",
+    "cover": "/images/placeholders/education.svg",
+    "tags": ["Engineering", "Computer science", "Intelligent systems"],
+    "details": {
+      "overview": "Academic background at ESI-SBA. The specialization supplied for this portfolio is Intelligent Computer Systems.",
+      "contributions": ["Engineering studies in computer science", "Academic and multidisciplinary project work"],
+      "results": "Diploma title, exact dates and academic distinctions should be added after verification."
+    },
+    "gallery": ["/images/placeholders/education.svg", "/images/placeholders/certificate.svg"]
+  }
+]

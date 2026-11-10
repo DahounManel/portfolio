@@ -1,0 +1,17 @@
+{
+  "name": "Dahoun Manel",
+  "firstName": "Manel",
+  "lastName": "Dahoun",
+  "title": "Software Developer & UI/UX Designer",
+  "focus": ["Software Engineering", "AI & Computer Vision", "Robotics", "Product Design"],
+  "headline": "Building useful software. Designing thoughtful experiences. Exploring intelligent systems.",
+  "intro": "I am a software developer and UI/UX designer whose work spans web and desktop applications, interface design, robotics, computer vision and EEG-based biometric research. I enjoy turning complex ideas into clear, useful and well-crafted experiences.",
+  "location": "Algeria",
+  "email": "m.dahoun@esi-sba.dz",
+  "linkedin": "https://www.linkedin.com/in/dahoun--manel",
+  "github": "https://github.com/DahounManel",
+  "languages": ["Arabic", "French", "English"],
+  "values": ["Curiosity", "Clarity", "Collaboration", "Continuous learning"],
+  "availabilityNote": "Open to relevant professional, internship and academic opportunities.",
+  "cvLibraryPath": "/cvs"
+}

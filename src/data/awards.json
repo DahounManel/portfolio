@@ -1,0 +1,444 @@
+[
+  {
+    "id": "jisr-numuw",
+    "slug": "jisr-numuw",
+    "type": "award",
+    "title": "Mobadarat Jisr Numuw",
+    "subtitle": "First Place · Three-person team",
+    "period": "5–6 July 2025 · Sablette",
+    "result": "First place reported",
+    "summary": "A youth initiative focused on connecting young people across Algeria.",
+    "cover": "/images/placeholders/award.svg",
+    "tags": [
+      "First place",
+      "Team project",
+      "Youth initiative"
+    ],
+    "details": {
+      "overview": "A three-person team initiative focused on connecting young people across Algeria, organized by Youth House Abderrahmane Lalaa.",
+      "contributions": [
+        "Contributed to the idea of a way to connect youth across Algeria"
+      ],
+      "results": "First place was reported in the source notes. Exact certificate wording should be verified before publication."
+    },
+    "gallery": [
+      "/images/placeholders/award.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "First-place certificate",
+        "status": "Verify exact wording and add"
+      },
+      {
+        "label": "Official announcement and team photos",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "kodikos",
+    "slug": "kodikos",
+    "type": "award",
+    "title": "KODIKOS Hackathon",
+    "subtitle": "Second Place · Four-person team",
+    "period": "13–15 November 2025",
+    "result": "Second place reported",
+    "summary": "A hackathon organized by Ingeniums, challenging teams to identify a problem, create a solution and sell it.",
+    "cover": "/images/placeholders/award.svg",
+    "tags": [
+      "Second place",
+      "Hackathon",
+      "Team of four"
+    ],
+    "details": {
+      "overview": "A four-person team participated in the KODIKOS hackathon organized by Ingeniums.",
+      "contributions": [
+        "Worked with the team to identify a problem, create a solution and present its value"
+      ],
+      "results": "Second place was reported in the completed worksheet. Confirm exact certificate wording before publication."
+    },
+    "gallery": [
+      "/images/placeholders/award.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Certificate",
+        "status": "Verify exact wording and add"
+      },
+      {
+        "label": "Project presentation and team photos",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "northian-crows",
+    "slug": "northian-crows",
+    "type": "event",
+    "title": "Northian Crows",
+    "subtitle": "Security event · Finalist",
+    "period": "18 March 2023",
+    "result": "Finalist · Did not win",
+    "summary": "Participated in a five-member team working on cryptography and algorithmic challenges.",
+    "cover": "/images/placeholders/security.svg",
+    "tags": [
+      "Cryptography",
+      "Algorithms",
+      "Finalist"
+    ],
+    "details": {
+      "overview": "A security event organized by Ingeniums Club.",
+      "contributions": [
+        "Worked in a five-member team on cryptography and algorithmic challenges"
+      ],
+      "technologies": [
+        "Cryptography",
+        "Algorithmics"
+      ],
+      "results": "Finalist; did not win."
+    },
+    "gallery": [
+      "/images/placeholders/security.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Finalist certificate",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Event photographs",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "afrobot",
+    "slug": "afrobot",
+    "type": "event",
+    "title": "AFROBOT — Wall-E",
+    "subtitle": "Fighting robot category",
+    "period": "7 July 2025 · Sablette, Algiers",
+    "result": "Participation",
+    "summary": "Participated in the fighting-robot category, contributing to electronics, finance management and component purchasing.",
+    "cover": "/images/placeholders/robotics.svg",
+    "tags": [
+      "Robotics",
+      "Electronics",
+      "Competition"
+    ],
+    "details": {
+      "overview": "Participation in AFROBOT with the fighting robot Wall-E.",
+      "contributions": [
+        "Contributed to electronics",
+        "Managed finance and purchasing of required components"
+      ],
+      "results": "The robot was approved under competition rules. No award was reported."
+    },
+    "gallery": [
+      "/images/placeholders/robotics.svg",
+      "/images/placeholders/hardware.svg",
+      "/images/placeholders/event.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Competition photos and videos",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Robot photographs",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "alpha-ai",
+    "slug": "alpha-ai",
+    "type": "event",
+    "title": "Alpha AI — Team 7",
+    "subtitle": "AI agents and computer vision competition",
+    "period": "27–30 November 2025 · ESI-SBA",
+    "result": "Result not supplied",
+    "summary": "Participated in Alpha AI as part of Team 7, working on AI agents and computer vision challenges.",
+    "cover": "/images/placeholders/research.svg",
+    "tags": [
+      "AI agents",
+      "Computer vision",
+      "Competition"
+    ],
+    "details": {
+      "overview": "Participation in Alpha AI at ESI-SBA as part of Team 7.",
+      "contributions": [
+        "Worked on AI agents and computer vision challenges"
+      ],
+      "technologies": [
+        "AI agents",
+        "Computer vision"
+      ],
+      "results": "The result was not supplied."
+    },
+    "gallery": [
+      "/images/placeholders/research.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Certificate and team details",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Project demo",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "aiquest25",
+    "slug": "aiquest-25",
+    "type": "event",
+    "title": "AI Fest / AIQuest’25",
+    "subtitle": "Fraud-detection challenge",
+    "period": "23–25 December 2025 · Algiers",
+    "result": "Competition participant",
+    "summary": "Worked on a fraud-detection system for QR-code-based money transactions.",
+    "cover": "/images/placeholders/security.svg",
+    "tags": [
+      "AI",
+      "Fraud detection",
+      "QR payments"
+    ],
+    "details": {
+      "overview": "Competitor at AIQuest’25, organized by GDG SBA, at HIS Private Institute in Algiers.",
+      "contributions": [
+        "Worked on a fraud-detection system for QR-code-based money transactions"
+      ],
+      "technologies": [
+        "AI / fraud detection; exact stack not supplied"
+      ],
+      "results": "No placement or award was supplied."
+    },
+    "gallery": [
+      "/images/placeholders/security.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Certificate and team details",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Project demo",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "khotwa-tour",
+    "slug": "khotwa-tour",
+    "type": "event",
+    "title": "Khotwa Tour",
+    "subtitle": "ESI-SBA Representative",
+    "period": "29–30 April 2025 · Oran",
+    "result": "Institutional representation",
+    "summary": "Represented ESI-SBA at an event helping baccalaureate students discover higher-education institutions in Algeria.",
+    "cover": "/images/placeholders/event.svg",
+    "tags": [
+      "Representation",
+      "Communication",
+      "Education"
+    ],
+    "details": {
+      "overview": "Represented ESI-SBA at an event helping baccalaureate students discover higher-education institutions in Algeria.",
+      "contributions": [
+        "Presented school projects and information",
+        "Shared trifold materials and information about admission averages and the entry system"
+      ],
+      "results": "Evidence can include photographs, brochures and event announcements."
+    },
+    "gallery": [
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg",
+      "/images/placeholders/poster.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Event photographs",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Brochures and event announcement",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "ingehack-50",
+    "slug": "ingehack-50",
+    "type": "event",
+    "title": "IngeHack 5.0",
+    "subtitle": "Event execution manager & technical team",
+    "period": "2026",
+    "result": "Organizing team",
+    "summary": "Participated in organizing IngeHack 5.0, managing D-Day event execution and contributing as part of the technical team.",
+    "cover": "/images/placeholders/event.svg",
+    "tags": [
+      "Event management",
+      "Technical team",
+      "Execution"
+    ],
+    "details": {
+      "overview": "Participation in organizing IngeHack 5.0.",
+      "contributions": [
+        "Managed D-Day event execution",
+        "Participated as a member of the Technical Team"
+      ],
+      "results": "Specific technical tasks and team size were not documented."
+    },
+    "gallery": [
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg",
+      "/images/placeholders/community.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Official role confirmation",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Schedule, event photos and organizer posts",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "crti-platform-presentation",
+    "slug": "crti-bou-ismail-presentation",
+    "type": "event",
+    "title": "CRTI Bou Ismaïl Platform",
+    "subtitle": "Inauguration event / project presentation",
+    "period": "19 June 2025",
+    "result": "Project presentation",
+    "summary": "Participated in an event associated with the inauguration of a civilian pilot-training, testing and experimentation center.",
+    "cover": "/images/placeholders/space.svg",
+    "tags": [
+      "Presentation",
+      "Ground station",
+      "Aerospace"
+    ],
+    "details": {
+      "overview": "Participated in an event associated with the inauguration of a civilian pilot-training, testing and experimentation center at the CRTI Bou Ismaïl platform.",
+      "contributions": [
+        "Participated as an incubator member / project representative",
+        "Presented and answered questions about a ground-station-related project"
+      ],
+      "results": "The official event title and exact role should be verified before publication."
+    },
+    "gallery": [
+      "/images/placeholders/space.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Event photographs and invitation",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Official event announcement and role confirmation",
+        "status": "Verify and add"
+      }
+    ]
+  },
+  {
+    "id": "ingeniums-member-month",
+    "slug": "ingeniums-member-of-the-month",
+    "type": "award",
+    "title": "Ingeniums — Member of the Month",
+    "subtitle": "Recognition for community contribution",
+    "period": "31 October 2024",
+    "result": "Member of the Month recognition",
+    "summary": "Recognized for supporting tutor coordination, workshop planning and preparation of learning activities.",
+    "cover": "/images/placeholders/award.svg",
+    "tags": [
+      "Recognition",
+      "Community",
+      "Workshop coordination"
+    ],
+    "details": {
+      "overview": "Recognition from Ingeniums as Member of the Month.",
+      "contributions": [
+        "Helped find tutors",
+        "Planned workshops",
+        "Prepared the venue",
+        "Supported smooth workshop delivery"
+      ],
+      "results": "The source notes identify a recognition post dated 31 October 2024. Add the certificate or official announcement when available."
+    },
+    "gallery": [
+      "/images/placeholders/award.svg",
+      "/images/placeholders/community.svg",
+      "/images/placeholders/event.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Certificate or club announcement",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Workshop photographs",
+        "status": "Evidence to be added"
+      }
+    ]
+  },
+  {
+    "id": "ingecode-event",
+    "slug": "ingecode-1v1-event",
+    "type": "event",
+    "title": "IngeCode — 1v1 Coding Challenge",
+    "subtitle": "Mentoring, platform contribution and event support",
+    "period": "14 December 2024 · Central Library, Sidi Bel Abbès",
+    "result": "Technical contributor / mentor",
+    "summary": "Contributed to the coding challenge platform and supported participants by explaining challenges and coding topics.",
+    "cover": "/images/placeholders/code.svg",
+    "tags": [
+      "Coding competition",
+      "Mentoring",
+      "Frontend"
+    ],
+    "details": {
+      "overview": "Contributed to the IngeCode 1v1 event and coding competition platform.",
+      "contributions": [
+        "Mentored participants by explaining challenges and general coding topics",
+        "Helped identify AI-assisted submissions",
+        "Designed platform screens and coded frontend interfaces"
+      ],
+      "technologies": [
+        "Next.js",
+        "Figma"
+      ],
+      "results": "No individual competitive placement is claimed."
+    },
+    "gallery": [
+      "/images/placeholders/code.svg",
+      "/images/placeholders/event.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Platform screenshots and design files",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Event posts and mentor confirmation",
+        "status": "Evidence to be added"
+      }
+    ]
+  }
+]

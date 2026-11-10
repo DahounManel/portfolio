@@ -1,0 +1,58 @@
+[
+  {
+    "id": "alphabit",
+    "slug": "alphabit",
+    "type": "activity",
+    "title": "AlphaBit Club",
+    "subtitle": "Finance Department · Design Department",
+    "period": "November 2021 – March 2023",
+    "summary": "Contributed first to sponsorship outreach and later to the club's design and communication materials.",
+    "cover": "/images/placeholders/community.svg",
+    "tags": ["Sponsorship", "Graphic design", "Communication"],
+    "details": { "overview": "Member of AlphaBit Club at ESI-SBA, with contributions in finance and design.", "contributions": ["Presented sponsorship requests to shops and companies", "Collected contacts from interested sponsors and initiated official paperwork", "Created social media posts and communication materials after moving to the Design Department"], "technologies": ["Photoshop", "Illustrator", "Figma", "Canva", "PowerPoint"], "results": "Evidence can include sponsorship materials, published posts and original design files." },
+    "gallery": ["/images/placeholders/community.svg", "/images/placeholders/branding.svg", "/images/placeholders/poster.svg"],
+    "evidence": [{ "label": "Sponsorship file and correspondence", "status": "Evidence to be added" }, { "label": "Published posts and original designs", "status": "Evidence to be added" }]
+  },
+  {
+    "id": "ingeniums-community",
+    "slug": "ingeniums-community",
+    "type": "activity",
+    "title": "Ingeniums Club",
+    "subtitle": "Design, Technical Team & Learning Community",
+    "period": "2023–2026",
+    "summary": "Progressed through design, technical contribution and learning-community leadership roles.",
+    "cover": "/images/placeholders/community.svg",
+    "tags": ["Design", "Development", "Leadership", "Workshops"],
+    "details": { "overview": "Long-term involvement in Ingeniums across design, technical work and learning-community activities.", "contributions": ["Designed social media and communication materials", "Contributed to selected event interfaces and websites", "As vice leader of Learning Community, supported tutor and workshop coordination"], "technologies": ["Figma", "Photoshop", "Illustrator", "Canva", "JavaScript", "Next.js", "Tailwind CSS"], "results": "Specific responsibilities are also presented in the relevant experience and project entries." },
+    "gallery": ["/images/placeholders/community.svg", "/images/placeholders/event.svg", "/images/placeholders/team.svg"],
+    "evidence": [{ "label": "Membership and role confirmation", "status": "Evidence to be added" }, { "label": "Event and workshop photographs", "status": "Evidence to be added" }]
+  },
+  {
+    "id": "linux-install-party",
+    "slug": "linux-install-party",
+    "type": "activity",
+    "title": "Linux Install Party",
+    "subtitle": "Installation & technical support",
+    "period": "2023, 2024 and 2025",
+    "summary": "Supported Linux installations and troubleshooting, with 20+ installations reported approximately across editions.",
+    "cover": "/images/placeholders/linux.svg",
+    "tags": ["Linux", "Dual boot", "Virtual machines", "Troubleshooting"],
+    "details": { "overview": "Participated as an installer in Linux installation activities across several editions.", "contributions": ["Installed distributions according to user choice", "Handled single-boot, dual-boot and virtual-machine setups", "Troubleshot installation errors"], "technologies": ["Linux distributions", "Boot configuration", "Partitioning", "Virtual machines"], "results": "20+ installations is an approximate combined total across editions." },
+    "gallery": ["/images/placeholders/linux.svg", "/images/placeholders/event.svg", "/images/placeholders/team.svg"],
+    "evidence": [{ "label": "Event announcements and photos", "status": "Evidence to be added" }]
+  },
+  {
+    "id": "fablab-community",
+    "slug": "fablab-community",
+    "type": "activity",
+    "title": "ESI-SBA FabLab Community",
+    "subtitle": "Robotics and embedded systems",
+    "period": "February 2025 onward",
+    "summary": "Laboratory participation around electronics, embedded systems, robotics and project presentations.",
+    "cover": "/images/placeholders/hardware.svg",
+    "tags": ["Robotics", "Embedded", "Hardware"],
+    "details": { "overview": "Participation in the ESI-SBA FabLab under Mr. Oussama Serhane.", "contributions": ["Participated in laboratory projects and presentations"], "technologies": ["ESP32", "Raspberry Pi", "Pixhawk", "Electronics", "CAD"], "results": "Specific project names and individual contributions can be added when confirmed." },
+    "gallery": ["/images/placeholders/hardware.svg", "/images/placeholders/robotics.svg", "/images/placeholders/team.svg"],
+    "evidence": [{ "label": "Project photos and documentation", "status": "Evidence to be added" }]
+  }
+]

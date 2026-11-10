@@ -1,0 +1,8 @@
+[
+  { "label": "About", "href": "#about" },
+  { "label": "Expertise", "href": "#skills" },
+  { "label": "Experience", "href": "#experience" },
+  { "label": "Projects", "href": "#projects" },
+  { "label": "Research", "href": "#research" },
+  { "label": "More", "href": "#more" }
+]

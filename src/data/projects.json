@@ -1,0 +1,577 @@
+[
+  {
+    "id": "eeg-authentication",
+    "slug": "eeg-authentication",
+    "type": "project",
+    "title": "EEG-Based Biometric Authentication",
+    "subtitle": "Low-channel wearable EEG · Research prototype",
+    "category": [
+      "Research",
+      "Development"
+    ],
+    "period": "2025–2026",
+    "featured": true,
+    "summary": "A biometric authentication prototype exploring stimulus-evoked EEG responses and Riemannian representations.",
+    "cover": "/images/placeholders/research.svg",
+    "tags": [
+      "Python",
+      "MNE",
+      "PsychoPy",
+      "pyRiemann",
+      "Emotiv Insight 2"
+    ],
+    "details": {
+      "overview": "The work explores EEG-based biometric authentication using a low-channel wearable headset and personalized visual stimuli. The research examined stimulus-evoked responses, including P300, and Riemannian representations for verification.",
+      "contributions": [
+        "Research and development of an EEG authentication prototype",
+        "Exploration of stimulus-evoked responses and Riemannian representations",
+        "Work with the Emotiv Insight 2 acquisition ecosystem"
+      ],
+      "process": [
+        "Literature review and research framing",
+        "EEG acquisition and experimental workflow",
+        "Signal processing and feature representation",
+        "Prototype development and evaluation"
+      ],
+      "technologies": [
+        "Python",
+        "MNE",
+        "PsychoPy",
+        "pyRiemann",
+        "Emotiv Cortex",
+        "Emotiv Insight 2"
+      ],
+      "results": "A working prototype is described in the source notes. Quantitative evaluation and production-readiness claims are intentionally not asserted here.",
+      "challenges": [
+        "Wearable EEG signal quality",
+        "Experimental consistency",
+        "Validation with a limited number of channels"
+      ],
+      "lessons": [
+        "Biometric research requires careful experimental design",
+        "Signal quality and evaluation methodology are central to trustworthy results"
+      ],
+      "researchTitles": [
+        "EEG-Based Biometric Authentication Using Low-Channel Wearable EEG: A Feasibility Study of Stimulus-Evoked Responses and Riemannian Representations",
+        "Design and Development of an EEG-Based Biometric Authentication System Using a Low-Channel Wearable Headset"
+      ],
+      "titleNote": "Two thesis title formulations were supplied because the academic programme includes two thesis works. Confirm which title belongs to each document before publishing."
+    },
+    "gallery": [
+      "/images/placeholders/research.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/data.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Thesis and report",
+        "status": "Add approved public document"
+      },
+      {
+        "label": "Architecture and anonymized experiments",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "drone-interstellar",
+    "slug": "drone-interstellar",
+    "type": "project",
+    "title": "Interstellar — Drone & Computer Vision",
+    "subtitle": "Team robotics project",
+    "category": [
+      "Development",
+      "Robotics"
+    ],
+    "period": "March–June 2025",
+    "featured": true,
+    "summary": "A five-member team project to build a drone from imported components, including a computer-vision line-detection demonstration.",
+    "cover": "/images/placeholders/robotics.svg",
+    "tags": [
+      "Computer vision",
+      "ArUco",
+      "Raspberry Pi",
+      "Pixhawk"
+    ],
+    "details": {
+      "overview": "A five-member team built a drone using imported components. The project explored computer-vision-based line following and detection.",
+      "contributions": [
+        "Worked on computer-vision-based line following and detection",
+        "Contributed to a detection code demonstration"
+      ],
+      "technologies": [
+        "Computer vision",
+        "ArUco",
+        "Raspberry Pi",
+        "Pixhawk"
+      ],
+      "results": "The detection code was successfully demonstrated. The wider automation behavior was not achieved within the available time, so autonomous navigation is not claimed.",
+      "challenges": [
+        "Time constraints",
+        "Integration between vision processing and the broader drone system"
+      ]
+    },
+    "gallery": [
+      "/images/placeholders/robotics.svg",
+      "/images/placeholders/code.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Detection demonstration",
+        "status": "Video to be added"
+      },
+      {
+        "label": "Team and hardware photos",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "depanini",
+    "slug": "depanini",
+    "type": "project",
+    "title": "Depanini",
+    "subtitle": "On-demand dépannage mobile application",
+    "category": [
+      "Development",
+      "UI/UX"
+    ],
+    "period": "November 2025 · Planned duration: six months",
+    "featured": true,
+    "summary": "A mobile platform concept connecting customers with nearby dépannage providers when a vehicle breaks down.",
+    "cover": "/images/placeholders/mobile.svg",
+    "tags": [
+      "Flutter",
+      "Figma",
+      "Mobile UI/UX"
+    ],
+    "details": {
+      "overview": "An on-demand platform concept connecting customers with nearby dépannage providers when a car breaks down. Its pricing concept was inspired by ride-hailing services.",
+      "contributions": [
+        "UI/UX design",
+        "Frontend development",
+        "Customer interface",
+        "Administrator interface",
+        "Driver/provider interface"
+      ],
+      "technologies": [
+        "Flutter",
+        "Figma"
+      ],
+      "results": "Release and deployment status were not supplied and are not claimed here.",
+      "challenges": [
+        "Designing distinct experiences for customers, administrators and providers"
+      ]
+    },
+    "gallery": [
+      "/images/placeholders/mobile.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/flow.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Figma prototype",
+        "status": "Link to be added"
+      },
+      {
+        "label": "Application screenshots",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "les-oeuvres-sociales",
+    "slug": "les-oeuvres-sociales",
+    "type": "project",
+    "title": "Les Œuvres Sociales",
+    "subtitle": "Centralized social services platform",
+    "category": [
+      "Development",
+      "UI/UX"
+    ],
+    "period": "March–June 2024",
+    "featured": true,
+    "summary": "An academic platform concept to centralize social-service administration and connect employees with offers and services.",
+    "cover": "/images/placeholders/web.svg",
+    "tags": [
+      "React",
+      "Figma",
+      "Frontend",
+      "Team project"
+    ],
+    "details": {
+      "overview": "A multidisciplinary platform intended for ESI-SBA and adaptable to other organizations. It aims to centralize social-service administration and connect employees with offers and services.",
+      "contributions": [
+        "UI/UX design in a five-person team",
+        "Frontend development",
+        "Website pages and reusable components",
+        "Connecting frontend interfaces with the backend"
+      ],
+      "technologies": [
+        "Figma",
+        "React"
+      ],
+      "results": "Academic prototype/submission. Deployment was not confirmed.",
+      "challenges": [
+        "Designing connected experiences for different user needs",
+        "Coordinating frontend work with the backend"
+      ]
+    },
+    "gallery": [
+      "/images/placeholders/web.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/team.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Interface screenshots",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Report and Figma",
+        "status": "Add shareable files"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "ingecode-1v1",
+    "slug": "ingecode-1v1",
+    "type": "project",
+    "title": "IngeCode 1v1",
+    "subtitle": "Coding challenge platform and event contribution",
+    "category": [
+      "Development",
+      "UI/UX"
+    ],
+    "period": "December 2024",
+    "featured": false,
+    "summary": "Interface design and frontend work for a coding challenge event, alongside mentoring participants.",
+    "cover": "/images/placeholders/code.svg",
+    "tags": [
+      "Next.js",
+      "Figma",
+      "JavaScript"
+    ],
+    "details": {
+      "overview": "A coding challenge event held at the Central Library in Sidi Bel Abbès on 14 December 2024.",
+      "contributions": [
+        "Designed platform screens",
+        "Coded selected frontend interfaces",
+        "Mentored participants by explaining challenges and general coding topics",
+        "Helped identify AI-assisted submissions"
+      ],
+      "technologies": [
+        "Next.js",
+        "Figma"
+      ],
+      "results": "Event and platform contribution; no competitive placement is claimed."
+    },
+    "gallery": [
+      "/images/placeholders/code.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/event.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Platform screenshots",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Event photographs",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "ingehack-registration",
+    "slug": "ingehack-registration",
+    "type": "project",
+    "title": "IngeHack Registration Website",
+    "subtitle": "Registration experience and event contribution",
+    "category": [
+      "Development",
+      "UI/UX"
+    ],
+    "period": "February 2025",
+    "featured": false,
+    "summary": "Contributed to the registration website, visual assets and event execution for IngeHack 4.0.",
+    "cover": "/images/placeholders/web.svg",
+    "tags": [
+      "Frontend",
+      "Web UI/UX",
+      "Event organization"
+    ],
+    "details": {
+      "overview": "A contribution to the registration website and event organization for IngeHack 4.0.",
+      "contributions": [
+        "Designed pages and visual assets",
+        "Coded website sections",
+        "Created social media designs",
+        "Supported D-Day execution as part of the technical team"
+      ],
+      "technologies": [
+        "Web UI/UX",
+        "Frontend development"
+      ],
+      "results": "Specific deployment and technology-stack details were not supplied."
+    },
+    "gallery": [
+      "/images/placeholders/web.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/event.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Website screenshots",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Event and design materials",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "programming-docs-site",
+    "slug": "programming-language-documentation",
+    "type": "project",
+    "title": "Programming Language Documentation Website",
+    "subtitle": "Multidisciplinary web project",
+    "category": [
+      "Development",
+      "Branding"
+    ],
+    "period": "2023",
+    "featured": false,
+    "summary": "A documentation website built by a five-member team, including the complete frontend and visual identity contribution.",
+    "cover": "/images/placeholders/web.svg",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bash"
+    ],
+    "details": {
+      "overview": "A programming-language documentation website developed as a first multidisciplinary programming project.",
+      "contributions": [
+        "Complete frontend",
+        "Website design",
+        "Logo and visual identity"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bash"
+      ],
+      "results": "A Bash script was included for testing. Repository and screenshots can be added when ready."
+    },
+    "gallery": [
+      "/images/placeholders/web.svg",
+      "/images/placeholders/branding.svg",
+      "/images/placeholders/code.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Website screenshots",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Logo and original design files",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "desktop-applications",
+    "slug": "desktop-applications",
+    "type": "project",
+    "title": "Freelance Desktop Applications",
+    "subtitle": "Four private client applications · Sanitized case study",
+    "category": [
+      "Development"
+    ],
+    "period": "September 2025",
+    "featured": true,
+    "summary": "A portfolio of four desktop applications, including two multi-user applications with a shared database over LAN and two local applications.",
+    "cover": "/images/placeholders/desktop.svg",
+    "tags": [
+      "Desktop applications",
+      "Shared database",
+      "Private client work"
+    ],
+    "details": {
+      "overview": "Four desktop applications were designed and developed: two multi-user applications using a shared database over a local network, and two local desktop applications.",
+      "contributions": [
+        "Application design and development"
+      ],
+      "technologies": [
+        "Technology mapping must be confirmed per application"
+      ],
+      "results": "Client names, private application details and internal features are intentionally withheld. Deployment and multi-PC validation are not claimed.",
+      "challenges": [
+        "Maintaining client confidentiality",
+        "Separating local application requirements from LAN multi-user requirements"
+      ]
+    },
+    "gallery": [
+      "/images/placeholders/desktop.svg",
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/data.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Redacted screenshots",
+        "status": "Add only with permission"
+      },
+      {
+        "label": "Sanitized architecture diagram",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "kanoungpt-uiux",
+    "slug": "kanoungpt-uiux",
+    "type": "project",
+    "title": "KanounGPT — UI/UX Design",
+    "subtitle": "Legal chatbot interface concept",
+    "category": [
+      "UI/UX"
+    ],
+    "period": "12–20 July 2024",
+    "featured": false,
+    "summary": "UI/UX design for a legal chatbot intended to answer questions about specific Algerian laws using predefined knowledge.",
+    "cover": "/images/placeholders/interface.svg",
+    "tags": [
+      "Figma",
+      "UI/UX",
+      "Chatbot"
+    ],
+    "details": {
+      "overview": "A UI/UX design task for KanounGPT, a legal chatbot intended to answer questions about specific Algerian laws using predefined knowledge.",
+      "contributions": [
+        "Designed the chatbot interface"
+      ],
+      "technologies": [
+        "Figma"
+      ],
+      "results": "The documented contribution is interface design; software implementation is not claimed."
+    },
+    "gallery": [
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/mobile.svg",
+      "/images/placeholders/flow.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Figma screens",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "ab-pro-identity",
+    "slug": "ab-pro-visual-identity",
+    "type": "project",
+    "title": "AB Pro — Visual Identity",
+    "subtitle": "Brand identity for a dépannage service",
+    "category": [
+      "Branding",
+      "UI/UX"
+    ],
+    "period": "19 November 2025",
+    "featured": false,
+    "summary": "Visual identity work including logo variants, an advertising banner and a business card.",
+    "cover": "/images/placeholders/branding.svg",
+    "tags": [
+      "Figma",
+      "Logo design",
+      "Branding"
+    ],
+    "details": {
+      "overview": "Visual identity created for a dépannage service business.",
+      "contributions": [
+        "Designed logo variants",
+        "Created an advertising banner",
+        "Designed a business card"
+      ],
+      "technologies": [
+        "Figma"
+      ],
+      "results": "Final logo files and mockups can be added to the visual gallery."
+    },
+    "gallery": [
+      "/images/placeholders/branding.svg",
+      "/images/placeholders/brand-mockup.svg",
+      "/images/placeholders/poster.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Logo files",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Banner and business-card mockups",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "ff15-interns-app",
+    "slug": "ff15-interns-management-app",
+    "type": "project",
+    "title": "FF15 Forge — Interns Management App",
+    "subtitle": "Responsive application interface design",
+    "category": [
+      "UI/UX"
+    ],
+    "period": "November 2025 · One month",
+    "featured": false,
+    "summary": "System and interface design for an interns management application, including responsive screens.",
+    "cover": "/images/placeholders/interface.svg",
+    "tags": [
+      "Figma",
+      "Responsive design",
+      "UI/UX"
+    ],
+    "details": {
+      "overview": "An interns management application design for FF15 Forge.",
+      "contributions": [
+        "System and interface design",
+        "Responsive screen design"
+      ],
+      "technologies": [
+        "Figma"
+      ],
+      "results": "Coding and delivery were not confirmed, so this is presented as a design project."
+    },
+    "gallery": [
+      "/images/placeholders/interface.svg",
+      "/images/placeholders/mobile.svg",
+      "/images/placeholders/flow.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Figma file",
+        "status": "Evidence to be added"
+      },
+      {
+        "label": "Responsive screen exports",
+        "status": "Evidence to be added"
+      }
+    ],
+    "links": []
+  }
+]

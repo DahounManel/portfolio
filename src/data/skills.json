@@ -1,0 +1,14 @@
+[
+  { "category": "Programming", "items": ["C", "Python", "JavaScript", "C++", "Java", "OCaml", "Pascal"] },
+  { "category": "Web development", "items": ["React", "Next.js", "HTML", "CSS", "Tailwind CSS"] },
+  { "category": "Backend & desktop", "items": ["Node.js", "Express", "Fastify", "Electron"] },
+  { "category": "Mobile", "items": ["Flutter"] },
+  { "category": "AI & computer vision", "items": ["AI agents", "OpenCV", "ArUco", "Computer vision"] },
+  { "category": "EEG & signal processing", "items": ["MNE", "PsychoPy", "pyRiemann", "Emotiv Cortex", "Emotiv Insight 2"] },
+  { "category": "Cybersecurity", "items": ["Cryptography", "Networking", "DNS", "Web security", "Ethical hacking fundamentals"] },
+  { "category": "Databases", "items": ["PostgreSQL", "SQLite", "MongoDB", "MySQL", "Cassandra", "Neo4j", "Prisma"] },
+  { "category": "Robotics & embedded", "items": ["ESP32", "Raspberry Pi", "Pixhawk", "Arduino", "Electronics", "CAD"] },
+  { "category": "Systems & workflow", "items": ["Linux", "Git", "GitHub", "SSH", "Terminal", "Makefiles", "Virtual machines"] },
+  { "category": "UI/UX & visual design", "items": ["Figma", "Photoshop", "Illustrator", "Canva", "PowerPoint"] },
+  { "category": "GIS & remote sensing", "items": ["Details to be added"] }
+]

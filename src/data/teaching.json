@@ -1,0 +1,72 @@
+[
+  {
+    "id": "git-github-workshop",
+    "slug": "git-github-workshop",
+    "type": "teaching",
+    "title": "Git & GitHub Workshop",
+    "subtitle": "Introductory practical workshop",
+    "period": "2 December 2024",
+    "summary": "An introductory workshop covering Git, GitHub, SSH key setup and common commands, supported by a mini lab.",
+    "cover": "/images/placeholders/teaching.svg",
+    "tags": ["Git", "GitHub", "SSH", "Terminal"],
+    "details": { "overview": "Delivered an introductory Git and GitHub workshop.", "contributions": ["Explained Git and GitHub fundamentals", "Covered SSH key setup and common commands", "Prepared and delivered a mini lab"], "technologies": ["Git", "GitHub", "SSH", "Terminal"], "results": "Poster, slides, lab instructions and photographs can be added as evidence." },
+    "gallery": ["/images/placeholders/teaching.svg", "/images/placeholders/code.svg", "/images/placeholders/event.svg"],
+    "evidence": [{ "label": "Slides and lab instructions", "status": "Evidence to be added" }, { "label": "Workshop poster and photos", "status": "Evidence to be added" }]
+  },
+  {
+    "id": "ethical-hacking-tutoring",
+    "slug": "ethical-hacking-tutoring",
+    "type": "teaching",
+    "title": "Ethical Hacking Fundamentals",
+    "subtitle": "Individual online tutoring",
+    "period": "26 August – 18 September 2025",
+    "summary": "Individual online instruction in white-hat security fundamentals for one learner.",
+    "cover": "/images/placeholders/security.svg",
+    "tags": ["Networking", "Linux", "Web security", "DNS"],
+    "details": { "overview": "Provided individual online instruction in ethical security and white-hat fundamentals.", "contributions": ["Covered networking and Linux", "Introduced web security and DNS", "Used labs and algorithmic exercises"], "technologies": ["Terminal", "Packet Tracer", "Code editors"], "results": "A lesson outline and learner testimonial may be added with permission." },
+    "gallery": ["/images/placeholders/security.svg", "/images/placeholders/code.svg"],
+    "evidence": [{ "label": "Lesson outline", "status": "Evidence to be added" }, { "label": "Learner testimonial", "status": "Only publish with permission" }]
+  },
+  {
+    "id": "c-algorithms-tutoring",
+    "slug": "c-programming-algorithms-tutoring",
+    "type": "teaching",
+    "title": "C Programming & Algorithmics",
+    "subtitle": "Individual online instruction",
+    "period": "September 2025 – ongoing in source notes",
+    "summary": "Individual tutoring covering C programming from fundamentals to advanced concepts, plus algorithms and data structures in Python.",
+    "cover": "/images/placeholders/code.svg",
+    "tags": ["C", "Python", "Algorithms", "Data structures"],
+    "details": { "overview": "Individual online tutoring for a first-year university student.", "contributions": ["C: libraries, conditions, loops, arrays and pointers", "C: parsing, fork, function pointers and file handling", "C: dynamic memory with malloc/calloc and Makefiles", "Python algorithms and complexity", "Advanced tree structures and graphs"], "technologies": ["C", "Python", "Terminal", "Code editors"], "results": "A syllabus, lesson materials and a testimonial can be added with permission." },
+    "gallery": ["/images/placeholders/code.svg", "/images/placeholders/data.svg", "/images/placeholders/teaching.svg"],
+    "evidence": [{ "label": "Syllabus and course materials", "status": "Evidence to be added" }, { "label": "Testimonial", "status": "Only publish with permission" }]
+  },
+  {
+    "id": "ocaml-course",
+    "slug": "ocaml-course",
+    "type": "teaching",
+    "title": "OCaml",
+    "subtitle": "Course entry reserved for details",
+    "period": "Dates to confirm",
+    "summary": "An OCaml teaching entry. Course scope, dates and supporting materials are not yet documented.",
+    "cover": "/images/placeholders/teaching.svg",
+    "tags": ["OCaml", "Programming"],
+    "details": { "overview": "This entry is reserved for the OCaml course. Details should be completed before public publication.", "contributions": [], "technologies": ["OCaml"], "results": "Course dates, audience and topics require confirmation." },
+    "gallery": ["/images/placeholders/teaching.svg"],
+    "evidence": [{ "label": "Course plan", "status": "To be added" }]
+  },
+  {
+    "id": "python-trees-workshop",
+    "slug": "python-trees-and-graphs",
+    "type": "teaching",
+    "title": "Python — Trees & Graphs",
+    "subtitle": "Algorithmics and data structures",
+    "period": "Dates to confirm",
+    "summary": "A course entry for teaching tree structures and graph concepts in Python.",
+    "cover": "/images/placeholders/data.svg",
+    "tags": ["Python", "Trees", "Graphs", "Algorithms"],
+    "details": { "overview": "Course entry for algorithmics and data structures in Python, including different tree types and graphs.", "contributions": ["Explaining algorithmic concepts and data structures"], "technologies": ["Python"], "results": "Course dates and scope should be confirmed before publication." },
+    "gallery": ["/images/placeholders/data.svg", "/images/placeholders/code.svg"],
+    "evidence": [{ "label": "Course materials", "status": "To be added" }]
+  }
+]
