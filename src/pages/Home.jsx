@@ -2,9 +2,10 @@ import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   ArrowDown, ArrowRight, ArrowUpRight, BrainCircuit, Code2, Cpu, Database,
-  Download, Layers3, Linkedin, Mail, Palette, ShieldCheck, Sparkles, Terminal,
-  Github, GraduationCap, Trophy, Users, BookOpen
+  Download, Layers3, Mail, Palette, ShieldCheck, Sparkles, Terminal,
+  GraduationCap, Trophy, Users, BookOpen
 } from 'lucide-react';
+import { GithubIcon, LinkedinIcon } from '../components/icons/BrandIcons';
 import profile from '../data/profile.json';
 import skills from '../data/skills.json';
 import projects from '../data/projects.json';
@@ -75,8 +76,8 @@ export default function Home() {
               <Link className="button button-secondary" to="/cvs">View CV library <ArrowUpRight size={16} /></Link>
             </div>
             <div className="hero-socials">
-              <a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={15} /> LinkedIn</a>
-              <a href={profile.github} target="_blank" rel="noreferrer"><Github size={15} /> GitHub</a>
+              <a href={profile.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon size={15} /> LinkedIn</a>
+              <a href={profile.github} target="_blank" rel="noreferrer"><GithubIcon size={15} /> GitHub</a>
               <a href={`mailto:${profile.email}`}><Mail size={15} /> Email</a>
             </div>
           </motion.div>
@@ -235,8 +236,8 @@ export default function Home() {
           <div><div className="eyebrow">12 / CONTACT</div><h2>Let's make something <span>meaningful.</span></h2><p>{profile.availabilityNote}</p></div>
           <div className="contact-card">
             <a href={`mailto:${profile.email}`}><Mail size={17} /><span><small>EMAIL</small>{profile.email}</span><ArrowUpRight size={15} /></a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={17} /><span><small>LINKEDIN</small>Professional profile</span><ArrowUpRight size={15} /></a>
-            <a href={profile.github} target="_blank" rel="noreferrer"><Github size={17} /><span><small>GITHUB</small>Code and repositories</span><ArrowUpRight size={15} /></a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon size={17} /><span><small>LINKEDIN</small>Professional profile</span><ArrowUpRight size={15} /></a>
+            <a href={profile.github} target="_blank" rel="noreferrer"><GithubIcon size={17} /><span><small>GITHUB</small>Code and repositories</span><ArrowUpRight size={15} /></a>
             <Link to="/cvs"><Download size={17} /><span><small>CURRICULUM VITAE</small>Browse domain-specific CVs</span><ArrowUpRight size={15} /></Link>
           </div>
         </div>

@@ -1,4 +1,5 @@
-import { ArrowUpRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowUpRight, Mail } from 'lucide-react';
+import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
 import profile from '../../data/profile.json';
 
 export default function Footer() {
@@ -15,8 +16,8 @@ export default function Footer() {
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} {profile.name}. Built with care.</span>
         <div className="footer-links">
-          <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={16} /></a>
-          <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={16} /></a>
+          <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedinIcon size={16} /></a>
+          <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><GithubIcon size={16} /></a>
           <a href={`mailto:${profile.email}`} aria-label="Email"><Mail size={16} /></a>
         </div>
         <a href="#top" className="back-top">Back to top ↑</a>
