@@ -1,22 +1,76 @@
-# Dahoun Manel — Professional Portfolio
+# Dahoun Manel — Portfolio + Local Admin Studio
 
-A responsive React + Vite portfolio with a premium midnight-indigo visual style, subtle animated space background (moving starfield, slowly drifting nebula and occasional shooting stars), JSON-driven content, reusable detail pages, image galleries and a multi-domain CV library.
+A responsive React + Vite portfolio with a premium midnight-indigo visual style, a restrained animated space background (no astronaut), JSON-driven public content, reusable detail pages, evidence galleries and a multi-domain CV library.
 
-**No astronaut or character is used.** The space atmosphere is created with a lightweight Canvas starfield and CSS gradients/orbits.
+This version also includes a **local admin content management system**. It has a sidebar and dedicated pages for profile, education, skills, experience, projects, research, teaching, leadership/activities, awards, events, CVs, navigation and media. The admin performs CRUD directly against the existing JSON files and copies uploaded assets into `public/`. No database is used.
 
 ## Requirements
 
 - Node.js 20+ recommended
 - npm
 
-## Run locally
+## Run the website and admin locally
+
+Open a terminal in this project folder (named `portfolio`) and run:
 
 ```bash
 npm install
-npm run dev
+npm run admin
 ```
 
-Open the local URL shown by Vite (usually `http://localhost:5173`).
+Open the local address printed by Vite (normally `http://127.0.0.1:5173/`).
+
+- Public portfolio: `http://127.0.0.1:5173/`
+- Admin studio: `http://127.0.0.1:5173/admin`
+
+Keep the terminal running while using the website or the admin studio. The `npm run dev` command starts the same local development server and supports the admin API too.
+
+The admin file API is intentionally restricted to localhost. It is not exposed to other machines on your LAN.
+
+## How the admin works
+
+- No database, account service or cloud backend.
+- Records are saved directly to `src/data/*.json`.
+- Before each JSON write, the previous version is copied into `.admin-backups/`.
+- Uploaded images are copied into `public/images/<section>/`.
+- Uploaded supporting documents are copied into `public/evidence/`.
+- Uploaded CV PDFs are copied into `public/cv/`.
+- The Media Library lets you preview, copy the public path and delete media files.
+- Use **Export backup** to download all managed JSON files as one backup bundle. **Import backup** restores the JSON data from that bundle. Existing files are backed up before replacement.
+- The visible form editor supports nested objects, arrays, strings, long descriptions, booleans and file uploads. An optional advanced JSON editor is available on collection pages.
+
+### Research, awards and events
+
+Research has its own sidebar page, but research-tagged entries are stored in `projects.json` and remain normal portfolio case studies. This avoids duplicate copies of the same EEG research entry.
+
+Awards and Events have separate management pages but share `awards.json`. The admin keeps their `type` values (`award` or `event`) when creating records.
+
+### CV library
+
+Use the CV Library page to create or edit CV metadata even before a PDF exists. Upload a PDF in the `File` field when ready. Set `published` to `true` only when the PDF is real and approved for public download. CV metadata includes domain, language, description, target roles and update date.
+
+### Replacing placeholder images safely
+
+1. Open the relevant admin section and edit the record.
+2. Upload the real file into **Cover** or add images under **Gallery**.
+3. Save the record. This writes the new path into JSON.
+4. Open Media Library and delete the old placeholder only after it is no longer referenced by any record.
+
+Deleting a media file does not automatically rewrite JSON references. The admin warns before deletion for this reason.
+
+## Important deployment limitation
+
+Cloudflare Pages (and other static hosting) serves the built files but cannot write changes back into your local JSON files or upload to your computer's `public/` folder. The admin editor is therefore a **local content-management tool**, not a public cloud CMS.
+
+Recommended workflow:
+
+1. Manage content locally at `/admin`.
+2. Confirm uploaded files and save the JSON records.
+3. Run `npm run build`.
+4. Commit/push the updated `portfolio` folder to GitHub.
+5. Let Cloudflare Pages deploy the latest static build.
+
+The public website remains static and does not need a database.
 
 ## Build for deployment
 
@@ -25,21 +79,9 @@ npm run build
 npm run preview
 ```
 
-Vite outputs the static site into `dist/`.
+Vite outputs the static public website into `dist/`. Cloudflare Pages build command: `npm run build`. Output directory: `dist`.
 
-## Deploy for free with Cloudflare Pages
-
-1. Push this folder to a GitHub repository.
-2. In Cloudflare Pages, create a project connected to that repository.
-3. Use `npm run build` as the build command.
-4. Use `dist` as the build output directory.
-5. Deploy.
-
-The Vite config includes SPA-friendly development settings. For Cloudflare Pages, the generated static site is served from `dist`; React Router routes are handled by Pages' standard single-page-app fallback when no top-level `404.html` is present.
-
-## Edit portfolio content
-
-Most portfolio content lives in `src/data/`:
+## Main data files
 
 - `profile.json` — name, headline, introduction and contact links
 - `education.json` — education cards
@@ -52,69 +94,29 @@ Most portfolio content lives in `src/data/`:
 - `cvs.json` — domain-specific CV entries and PDF paths
 - `navigation.json` — top navigation labels and section anchors
 
-Each content item can include:
+## Existing accuracy and privacy notes
 
-- `cover`: the card cover image
-- `gallery`: array of image paths; the cover is automatically shown first
-- `details`: overview, contributions, process, technologies, results, challenges and lessons
-- `evidence`: supporting documents or evidence descriptions; add a `url` to make an evidence link visible
-- `links`: external links
-
-### Add images
-
-Place image files in `public/images/` (for example `public/images/projects/`). Reference them with a root-relative path such as `/images/projects/my-project-cover.webp` in the relevant JSON item.
-
-All files currently under `public/images/placeholders/` are clearly marked placeholder visuals. Replace them with authentic screenshots, approved photos, certificates or diagrams before public launch. Do not present placeholder images as actual evidence.
-
-### Add a new project or other content item
-
-1. Add a new JSON object to the relevant file.
-2. Give it a unique `id` and URL-safe `slug`.
-3. Set its `type` correctly (`project`, `experience`, `education`, `teaching`, `activity`, `award` or `event`).
-4. Add a cover path and gallery paths.
-5. Add only verified contributions and outcomes.
-
-The correct detail route is generated from the item type and slug:
-
-- Projects: `/projects/<slug>`
-- Experiences: `/experiences/<slug>`
-- Education: `/education/<slug>`
-- Teaching: `/teaching/<slug>`
-- Activities: `/activities/<slug>`
-- Awards: `/awards/<slug>`
-- Events: `/events/<slug>`
-
-Collection archive routes are available under `/collections/` (for example `/collections/projects`, `/collections/teaching` and `/collections/events`).
-
-## Add multiple CVs
-
-1. Put each PDF in `public/cv/`.
-2. Add or edit an entry in `src/data/cvs.json`.
-3. Set its `file` value to the public path, e.g. `/cv/software-developer-en.pdf`.
-4. Set `published` to `true` when the actual PDF is present and ready to share.
-5. Choose domain, language and target roles.
-
-The CV library filters by domain and language. Entries without an attached PDF remain clearly marked **In preparation** and do not expose a broken download link.
-
-## Accuracy and privacy notes
-
-- Current CV entries are planned categories only; no PDF files were supplied with the portfolio source document.
-- The current gallery uses placeholders because the original evidence has not yet been structured.
-- Private client applications remain sanitized; add only screenshots and details approved for public use.
+- CV entries are planned profiles until a real PDF has been uploaded and marked as published.
+- Current gallery images are placeholders; replace them with authentic screenshots, approved photos, certificates or diagrams before public launch.
+- Private client applications should remain sanitized. Add only details and screenshots approved for public use.
 - EEG participant data and sensitive experimental records must not be published. Use anonymized, approved visuals only.
-- Some dates, degree details, tools and award wording were marked for verification in the source portfolio document. Confirm them before publication.
+- Some dates, degree details, tools and award wording were flagged for verification in the source material. Confirm them before publication.
 - Skill levels are not invented; no percentage ratings are displayed.
 
 ## Project structure
 
 ```text
-src/
-  components/       Reusable cards, gallery, navigation and background
-  data/             Editable JSON content
-  pages/            Home, collection, item detail and CV library pages
-  styles/           Responsive visual system
-  utils/            Content registry and route helpers
-public/
-  images/placeholders/
-  cv/
+portfolio/
+  src/
+    admin/            Local admin UI, nested form editor and client API
+    components/       Reusable cards, gallery, navigation and background
+    data/             Editable JSON content
+    pages/            Public homepage, collections, details and CV library
+    styles/           Public visual system
+    utils/            Content registry and route helpers
+  public/
+    images/           Portfolio images grouped by content area
+    evidence/         Uploaded supporting documents
+    cv/               Uploaded CV PDFs
+  .admin-backups/     Automatic JSON backups (ignored by Git)
 ```
