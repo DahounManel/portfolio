@@ -23,8 +23,8 @@ export default function CVLibrary() {
         <div className="cv-page-heading">
           <div className="eyebrow">PROFESSIONAL DOCUMENTS / CV LIBRARY</div>
           <h1>One profile. <span>Different perspectives.</span></h1>
-          <p>Choose the CV that best matches the domain and opportunity you are exploring. Each version can be maintained independently in the portfolio data.</p>
-          <div className="cv-page-meta"><span><BriefcaseBusiness size={14} /> {cvs.length} professional profiles planned</span><span><Languages size={14} /> Multiple languages supported</span></div>
+          <p>Choose the CV that best matches the domain and opportunity you are exploring.</p>
+          <div className="cv-page-meta"><span><BriefcaseBusiness size={14} /> {cvs.length} professional profiles</span><span><Languages size={14} /> Multiple languages supported</span></div>
         </div>
 
         <div className="cv-filters">
@@ -36,20 +36,19 @@ export default function CVLibrary() {
         <div className="cv-grid">
           {visibleCVs.map((cv) => (
             <article className="cv-card" key={cv.id}>
-              <div className="cv-card-top"><div className="cv-file-icon"><FileText size={23} /></div><span className={`cv-status ${cv.published && cv.file ? 'available' : ''}`}>{cv.published && cv.file ? 'Available' : 'In preparation'}</span></div>
+              <div className="cv-card-top"><div className="cv-file-icon"><FileText size={23} /></div><span className={`cv-status ${cv.published && cv.file ? 'available' : ''}`}>{cv.published && cv.file ? 'Available' : 'On request'}</span></div>
               <div className="eyebrow">{cv.domain}</div>
               <h2>{cv.title}</h2>
               <p>{cv.description}</p>
               <div className="cv-language"><Languages size={14} /> {cv.language}</div>
               <div className="cv-roles">{cv.targetRoles.map((role) => <span key={role}>{role}</span>)}</div>
-              {cv.published && cv.file ? <a className="button button-primary cv-download" href={cv.file} download><ArrowDownToLine size={15} /> Download PDF</a> : <div className="cv-pending-note">PDF not added yet</div>}
+              {cv.published && cv.file ? <a className="button button-primary cv-download" href={cv.file} download><ArrowDownToLine size={15} /> Download PDF</a> : <a className="cv-pending-note" href={`mailto:${profile.email}?subject=${encodeURIComponent(`CV request — ${cv.title}`)}`}>Request this CV <ArrowUpRight size={12} /></a>}
             </article>
           ))}
         </div>
 
         {visibleCVs.length === 0 && <div className="empty-state">No CV matches those filters.</div>}
 
-        <div className="cv-instructions"><div className="cv-instructions-icon"><FileText size={19} /></div><div><strong>Adding a new CV is straightforward.</strong><p>Place the PDF in <code>public/cv/</code>, then add its path and metadata to <code>src/data/cvs.json</code>. Set <code>published</code> to <code>true</code> once the document is ready. No React component changes are needed.</p></div></div>
         <div className="cv-contact-line">Need a specific version? <a href={`mailto:${profile.email}`}>Contact me <ArrowUpRight size={13} /></a></div>
       </div>
     </main>

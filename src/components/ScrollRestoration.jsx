@@ -6,7 +6,7 @@ export function ScrollRestoration() {
   useEffect(() => {
     if (location.hash) {
       const target = document.querySelector(location.hash);
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (target) target.scrollIntoView({ behavior: 'auto', block: 'start' });
       else window.scrollTo(0, 0);
     } else {
       window.scrollTo(0, 0);

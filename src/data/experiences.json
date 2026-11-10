@@ -23,7 +23,7 @@
     "summary": "A space-sector internship involving desktop application development and exposure to satellite maintenance and utilization management.",
     "cover": "/images/placeholders/space.svg",
     "tags": ["Internship", "Desktop development", "Space systems"],
-    "details": { "overview": "An internship at ASAL in Ouled Fayet, within the department identified in the source notes as SAC.", "contributions": ["Developed a desktop application", "Learned about satellite maintenance", "Learned about satellite utilization management"], "results": "Exact tools and the expanded department acronym were not supplied." },
+    "details": { "overview": "An internship at ASAL in Ouled Fayet, within the SAC department.", "contributions": ["Developed a desktop application", "Learned about satellite maintenance", "Learned about satellite utilization management"], "results": "Exact tools and the expanded department acronym were not supplied." },
     "gallery": ["/images/placeholders/space.svg", "/images/placeholders/desktop.svg", "/images/placeholders/certificate.svg"],
     "evidence": [{ "label": "Internship certificate", "status": "Add if shareable" }, { "label": "Internship report", "status": "Add if shareable" }]
   },
@@ -93,7 +93,7 @@
     "summary": "UI/UX design contribution within the Forge learning and technology ecosystem.",
     "cover": "/images/placeholders/branding.svg",
     "tags": ["UI/UX", "Figma", "Design"],
-    "details": { "overview": "Joined FF15 as a UI/UX designer. Earlier notes mention developer responsibilities, but coding duties are not confirmed in this portfolio version.", "contributions": ["UI/UX design contribution"], "technologies": ["Figma"], "results": "Specific deliverables and public project links can be added after confirmation." },
+    "details": { "overview": "Joined FF15 as a UI/UX designer within the Forge learning and technology ecosystem.", "contributions": ["UI/UX design contribution"], "technologies": ["Figma"], "results": "Specific deliverables and public project links can be added after confirmation." },
     "gallery": ["/images/placeholders/branding.svg", "/images/placeholders/interface.svg"],
     "evidence": [{ "label": "Membership confirmation", "status": "Evidence to be added" }, { "label": "Design files", "status": "Evidence to be added" }]
   }

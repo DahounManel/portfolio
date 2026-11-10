@@ -1,4 +1,5 @@
-import { ArrowUpRight, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
 import profile from '../../data/profile.json';
 
@@ -11,7 +12,7 @@ export default function Footer() {
           <h2>Have a project or opportunity in mind?</h2>
           <p>For professional, internship and academic inquiries, feel free to get in touch.</p>
         </div>
-        <a className="button button-primary" href={`mailto:${profile.email}`}>Start a conversation <ArrowUpRight size={16} /></a>
+        <Link className="button button-primary" to="/#contact">Start a conversation</Link>
       </div>
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} {profile.name}. Built with care.</span>

@@ -9,6 +9,5 @@
   { "category": "Databases", "items": ["PostgreSQL", "SQLite", "MongoDB", "MySQL", "Cassandra", "Neo4j", "Prisma"] },
   { "category": "Robotics & embedded", "items": ["ESP32", "Raspberry Pi", "Pixhawk", "Arduino", "Electronics", "CAD"] },
   { "category": "Systems & workflow", "items": ["Linux", "Git", "GitHub", "SSH", "Terminal", "Makefiles", "Virtual machines"] },
-  { "category": "UI/UX & visual design", "items": ["Figma", "Photoshop", "Illustrator", "Canva", "PowerPoint"] },
-  { "category": "GIS & remote sensing", "items": ["Details to be added"] }
+  { "category": "UI/UX & visual design", "items": ["Figma", "Photoshop", "Illustrator", "Canva", "PowerPoint"] }
 ]
