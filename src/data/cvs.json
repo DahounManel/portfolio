@@ -1,10 +1,37 @@
 [
-  { "id": "software-en", "title": "Software Developer", "domain": "Software Development", "language": "English", "description": "Software engineering, web, backend and desktop development.", "targetRoles": ["Software Developer", "Frontend Developer", "Full-stack Developer"], "file": "", "updatedAt": "", "published": false },
-  { "id": "software-fr", "title": "Développeuse Logiciel", "domain": "Software Development", "language": "French", "description": "Développement logiciel, web, backend et applications desktop.", "targetRoles": ["Développement logiciel", "Développement web"], "file": "", "updatedAt": "", "published": false },
-  { "id": "uiux-en", "title": "UI/UX Designer", "domain": "UI/UX & Product Design", "language": "English", "description": "Interface design, prototyping, design systems and product experience.", "targetRoles": ["UI/UX Designer", "Product Designer"], "file": "", "updatedAt": "", "published": false },
-  { "id": "ai-research-en", "title": "AI & Research Profile", "domain": "AI, Machine Learning & Research", "language": "English", "description": "AI projects, computer vision, EEG research and signal processing.", "targetRoles": ["AI Intern", "Research Intern", "Computer Vision"], "file": "", "updatedAt": "", "published": false },
-  { "id": "robotics-en", "title": "Robotics & Embedded Systems", "domain": "Robotics & Embedded Systems", "language": "English", "description": "Robotics, electronics, hardware and embedded-systems experience.", "targetRoles": ["Robotics Intern", "Embedded Systems"], "file": "", "updatedAt": "", "published": false },
-  { "id": "cybersecurity-en", "title": "Cybersecurity Profile", "domain": "Cybersecurity", "language": "English", "description": "Networking, security fundamentals, cryptography and ethical hacking instruction.", "targetRoles": ["Cybersecurity Intern", "Security Trainee"], "file": "", "updatedAt": "", "published": false },
-  { "id": "gis-en", "title": "GIS & Remote Sensing", "domain": "GIS & Remote Sensing", "language": "English", "description": "Domain-specific CV reserved for the relevant tools and projects.", "targetRoles": ["GIS Intern", "Remote Sensing"], "file": "", "updatedAt": "", "published": false },
-  { "id": "general-en", "title": "General Professional Profile", "domain": "General", "language": "English", "description": "A multidisciplinary profile for broad internship and professional opportunities.", "targetRoles": ["Internship", "Multidisciplinary roles"], "file": "", "updatedAt": "", "published": false }
+  {
+    "id": "software-en",
+    "title": "Computer Systems Engineering",
+    "domain": "Computer science",
+    "language": "English",
+    "description": "AI, BCI brain computer interface,  Computer vision, Drones, robotics, Software engineering, web, backend and desktop development.",
+    "targetRoles": [
+      "Software Developer",
+      "Frontend Developer",
+      "Full-stack Developer",
+      "Embadded systems",
+      "Research Neurons, EEG, Brain computer interface"
+    ],
+    "file": "/cv/dahoun-manel-cv-english-mwbtx2bs.pdf",
+    "updatedAt": "",
+    "published": true,
+    "slug": "computer-systems-engineering"
+  },
+  {
+    "id": "software-fr",
+    "title": "ingénierie des systèmes informatiques",
+    "domain": "Informatique",
+    "language": "French",
+    "description": "IA, interface cerveau-ordinateur BCI, vision par ordinateur, drones, robotique, ingénierie logicielle, développement web, backend et de bureau.",
+    "targetRoles": [
+      "Développement logiciel",
+      "Développement web",
+      "interface cerveau-ordinateur BCI",
+      "Robotique, drone, System embarquer"
+    ],
+    "file": "",
+    "updatedAt": "",
+    "published": false,
+    "slug": "ingenierie-des-systemes-informatiques"
+  }
 ]

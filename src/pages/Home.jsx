@@ -7,14 +7,7 @@ import {
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/icons/BrandIcons';
 import ContactForm from '../components/contact/ContactForm';
-import profile from '../data/profile.json';
-import skills from '../data/skills.json';
-import projects from '../data/projects.json';
-import experiences from '../data/experiences.json';
-import education from '../data/education.json';
-import teaching from '../data/teaching.json';
-import activities from '../data/activities.json';
-import awards from '../data/awards.json';
+import { usePortfolioData } from '../context/PortfolioDataContext';
 import ContentCard from '../components/cards/ContentCard';
 import { Link } from 'react-router-dom';
 import { routeForItem } from '../utils/content';
@@ -50,12 +43,21 @@ function SkillIcon({ category }) {
 }
 
 export default function Home() {
+  const { data } = usePortfolioData();
+  const profile = data.profile;
+  const skills = data.skills;
+  const projects = data.projects;
+  const experiences = data.experiences;
+  const education = data.education;
+  const teaching = data.teaching;
+  const activities = data.activities;
+  const awards = data.awards;
   const [projectFilter, setProjectFilter] = useState('All');
   const filters = ['All', 'Development', 'UI/UX', 'Branding', 'Research'];
   const filteredProjects = useMemo(() => {
     if (projectFilter === 'All') return projects;
     return projects.filter((item) => (item.category || []).includes(projectFilter));
-  }, [projectFilter]);
+  }, [projectFilter, projects]);
 
   const featuredExperiences = experiences.slice(0, 4);
   const featuredAwards = awards.slice(0, 3);

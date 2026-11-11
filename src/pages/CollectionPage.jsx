@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import ContentCard from '../components/cards/ContentCard';
-import { contentCollections } from '../utils/content';
+import { usePortfolioData } from '../context/PortfolioDataContext';
+import { getContentCollections } from '../utils/content';
 
 const config = {
   projects: { title: 'Selected projects', eyebrow: 'WORK / CASE STUDIES', description: 'Development, UI/UX, research and visual identity projects.' },
@@ -15,6 +16,7 @@ const config = {
 
 export default function CollectionPage() {
   const { collection } = useParams();
+  const { data } = usePortfolioData();
   const details = config[collection];
   const key = collection === 'projects' ? 'project'
     : collection === 'experiences' ? 'experience'
@@ -22,7 +24,7 @@ export default function CollectionPage() {
     : collection === 'awards' ? 'award'
     : collection === 'events' ? 'event'
     : collection;
-  const items = details ? contentCollections[key] || [] : [];
+  const items = details ? (getContentCollections(data)[key] || []) : [];
 
   if (!details) return <main className="not-found container"><span className="eyebrow">COLLECTION NOT FOUND</span><h1>This collection is not available.</h1><Link to="/" className="button button-primary"><ArrowLeft size={15} /> Back to portfolio</Link></main>;
 

@@ -1,9 +1,11 @@
 import { useMemo, useState } from 'react';
 import { ArrowDownToLine, ArrowUpRight, FileText, Languages, Search, BriefcaseBusiness } from 'lucide-react';
-import cvs from '../data/cvs.json';
-import profile from '../data/profile.json';
+import { usePortfolioData } from '../context/PortfolioDataContext';
 
 export default function CVLibrary() {
+  const { data } = usePortfolioData();
+  const cvs = data.cvs;
+  const profile = data.profile;
   const [domain, setDomain] = useState('All domains');
   const [language, setLanguage] = useState('All languages');
   const [query, setQuery] = useState('');

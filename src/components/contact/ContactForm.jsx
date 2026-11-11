@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { ArrowUpRight, CheckCircle2, Loader2, Send } from 'lucide-react';
-import profile from '../../data/profile.json';
+import { usePortfolioData } from '../../context/PortfolioDataContext';
 
-const endpoint = `https://formsubmit.co/ajax/${profile.email}`;
 const empty = { name: '', email: '', message: '' };
 
 export default function ContactForm() {
+  const { data } = usePortfolioData();
+  const profile = data.profile;
+  const endpoint = `https://formsubmit.co/ajax/${profile.email}`;
   const [values, setValues] = useState(empty);
   const [status, setStatus] = useState('idle');
 

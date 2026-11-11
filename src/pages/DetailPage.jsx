@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowUpRight, CalendarDays, CheckCircle2, Link2 } from 'lucide-react';
+import { usePortfolioData } from '../context/PortfolioDataContext';
 import { getContentByRoute, getItemGallery } from '../utils/content';
 import MediaGallery from '../components/gallery/MediaGallery';
 
@@ -26,8 +27,9 @@ function ContentList({ title, items, icon = <CheckCircle2 size={16} /> }) {
 
 export default function DetailPage() {
   const { collection, slug } = useParams();
+  const { data } = usePortfolioData();
   const type = routeTypes[collection];
-  const item = type ? getContentByRoute(type, slug) : null;
+  const item = type ? getContentByRoute(type, slug, data) : null;
 
   useEffect(() => {
     if (item) document.title = `${item.title} — Dahoun Manel`;

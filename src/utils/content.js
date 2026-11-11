@@ -5,7 +5,7 @@ import teaching from '../data/teaching.json';
 import activities from '../data/activities.json';
 import awards from '../data/awards.json';
 
-export const contentCollections = {
+const staticCollections = {
   project: projects,
   experience: experiences,
   education,
@@ -15,10 +15,26 @@ export const contentCollections = {
   event: awards.filter((item) => item.type === 'event'),
 };
 
+export function getContentCollections(data) {
+  const source = data || {};
+  const awardsList = Array.isArray(source.awards) ? source.awards : awards;
+  return {
+    project: Array.isArray(source.projects) ? source.projects : projects,
+    experience: Array.isArray(source.experiences) ? source.experiences : experiences,
+    education: Array.isArray(source.education) ? source.education : education,
+    teaching: Array.isArray(source.teaching) ? source.teaching : teaching,
+    activity: Array.isArray(source.activities) ? source.activities : activities,
+    award: awardsList.filter((item) => item.type === 'award'),
+    event: awardsList.filter((item) => item.type === 'event'),
+  };
+}
+
+export const contentCollections = getContentCollections();
+
 export const allContent = Object.values(contentCollections).flat();
 
-export function getContentByRoute(type, slug) {
-  const collection = contentCollections[type];
+export function getContentByRoute(type, slug, data) {
+  const collection = getContentCollections(data)[type];
   return collection?.find((item) => item.slug === slug) ?? null;
 }
 
@@ -28,11 +44,11 @@ export function routeForItem(item) {
 }
 
 export function getCover(item) {
-  return item.cover || '/images/placeholders/web.svg';
+  return item?.cover || '/images/placeholders/web.svg';
 }
 
 export function getItemGallery(item) {
-  const gallery = Array.isArray(item.gallery) ? item.gallery : [];
+  const gallery = Array.isArray(item?.gallery) ? item.gallery : [];
   const cover = getCover(item);
   return [cover, ...gallery.filter((src) => src !== cover)];
 }
